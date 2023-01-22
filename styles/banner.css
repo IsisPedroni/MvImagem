@@ -1,26 +1,49 @@
 .banner{
-    background: var(--azul-degrade);
-    color: var(--branco);
-    text-align: center;
-    padding: 10em;
+    color: var(--cor-font);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner_conteudo{
+    padding: 10em 5em 0em 10em;
+}
+
+.imagem_banner img{
+    border-radius: 50em 0px 0px 50em;
+    height: 30em;
+    width: 50em;
+
+}
+
+.banner_bemVindo{
+    text-transform: uppercase;
 }
 
 .banner_titulo{
-    font-size: 18px;
+    font-size: 50px;
     font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.2em 0 0.2em 0;
+
 }
 
 .banner_texto{
-    font-weight: 500;
-    margin: 1em 0;
+    padding-bottom: 2em;
 }
 
-.banner_pesquisa{
-    background-color: transparent;
-    border: 1px solid var(--branco);
+#contatos_telefone{
+background-color: transparent;
+border: 1px solid var(--azul-text);
+border-radius: 5px;
+padding: 1em;
+color: var(--azul-text);
+display: block;
+text-decoration: none;
+width: 10em;
+}
+
+#contatos_telefone:hover {
+    background-color: var(--azul-text);
     color:var(--branco);
-    border-radius: 24px;
-    padding: 1em;
-    width: 100%;
 }
-
