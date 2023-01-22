@@ -3,13 +3,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    padding: 1em;
+    /* position: relative; */
+    padding: 0.5em;
 
 }
 
-
 .container_imagem{
-   width: 25%;
+   width: 20%;
+   padding-left: 1em;
+}
 
+.container a{
+    padding-right: 1em;
+    text-decoration: none;
+    color: var(---cor-font);
+}
+
+.container a:hover {
+    font-size: 17px;
+    color: var(--azul-text)
+    
 }
