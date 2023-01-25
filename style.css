@@ -2,16 +2,16 @@
 @import url("styles/hearder.css");
 @import url("styles/cards.css");
 @import url("styles/sobreClinica.css");
+@import url("styles/equipe.css");
 
 
 :root{
-    --font-principal: "Poppins";
+    --font-principal: "Roboto";
+    /* --font-secundaria: "Open Sans" */
     --cor-de-fundo: hsl(220, 8%, 93%);
     --branco: #FFFFFF;
     --cor-font: black;
-    --azul-degrade: linear-gradient(97.54deg, #ffffff 35.49%, #468AC9 165.37%);
-    --branco-degrade: linear-gradient(97.54deg, #468AC9 35.49%, #ffffff 165.37%);
-    --azul-text: #468AC9;
+    --azul: #468AC9;
     --cinza-paragrafo: #b9c1cc;
 }
 
@@ -19,4 +19,5 @@ body {
     font-family: var(--font-principal);
     font-size: 16px;
     font-weight: 400;
+   
 }
