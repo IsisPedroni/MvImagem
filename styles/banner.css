@@ -10,40 +10,45 @@
 }
 
 .imagem_banner img{
-    border-radius: 50em 0px 0px 50em;
-    height: 30em;
-    width: 50em;
+    /* border-radius: 14em 0px 0px 14em; */
+    height: 34em;
+    /* width: 50em; */
 
 }
 
 .banner_bemVindo{
     text-transform: uppercase;
+    
 }
 
 .banner_titulo{
-    font-size: 50px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 0.2em 0 0.2em 0;
+    font-size: 65px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    padding: 0.3em 0 0.2em 0;
 
 }
 
+
+
 .banner_texto{
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 #contatos_telefone{
+text-transform: uppercase;
 background-color: transparent;
-border: 1px solid var(--azul-text);
+border: 1.5px solid var(--azul);
 border-radius: 5px;
-padding: 1em;
-color: var(--azul-text);
+margin-top: 1.5em;
+padding: 1em 0 1em 3em;
+color: var(--azul);
 display: block;
 text-decoration: none;
-width: 10em;
+width: 8em;
 }
 
 #contatos_telefone:hover {
-    background-color: var(--azul-text);
+    background-color: var(--azul);
     color:var(--branco);
 }

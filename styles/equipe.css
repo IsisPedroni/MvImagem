@@ -1,0 +1,56 @@
+.equipe{
+    background: var(--azul);
+    display: grid;
+    text-align: center;
+    padding: 2em;
+}
+
+.conteudo_equipe{
+    color: var(--branco);
+    margin: 1em;
+
+}
+.titulo_equipe{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.text_equipe{
+    font-size: 18px;
+    padding-top: 1em;
+}
+
+.equipe_medica{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 14em 0 14em;
+    
+}
+
+.card_medico{
+    margin: 0.9em;
+    background-color: var(--branco);
+    padding: 1.5em 0 4em 0;
+    border-radius: 0px 12px 12px 0px;
+    
+}
+
+.foto_medico img{
+    height: 15em;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.especialidade{
+    color: var(--cinza-paragrafo);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+    padding: 0.8em 0 0.9em 0;
+}
+
+.nome_medico{
+    font-size: 22px;
+    padding: 0 1em 0 1em;
+
+}
