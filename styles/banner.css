@@ -6,13 +6,13 @@
 }
 
 .banner_conteudo{
-    padding: 10em 5em 0em 10em;
+    padding: 5em 5em 0em 10em;
 }
 
 .imagem_banner img{
-    /* border-radius: 14em 0px 0px 14em; */
-    height: 34em;
-    /* width: 50em; */
+    border-radius: 14em 0px 0px 14em;
+    height: 28em;
+  
 
 }
 
@@ -25,10 +25,13 @@
     font-size: 65px;
     font-weight: 500;
     /* text-transform: uppercase; */
-    padding: 0.3em 0 0.2em 0;
+    padding: 0.2em 0 0.2em 0;
 
 }
 
+.banner_telefone{
+    padding-top: 1em;
+}
 
 
 .banner_texto{
@@ -38,7 +41,9 @@
 #contatos_telefone{
 text-transform: uppercase;
 background-color: transparent;
-border: 1.5px solid var(--azul);
+border: 2.2px solid var(--azul);
+font-weight: 600;
+font-size: 15px;
 border-radius: 5px;
 margin-top: 1.5em;
 padding: 1em 0 1em 3em;
