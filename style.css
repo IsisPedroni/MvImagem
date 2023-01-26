@@ -7,7 +7,7 @@
 
 :root{
     --font-principal: "Roboto";
-    /* --font-secundaria: "Open Sans" */
+    --font-secundaria: "Open Sans";
     --cor-de-fundo: hsl(220, 8%, 93%);
     --branco: #FFFFFF;
     --cor-font: black;
