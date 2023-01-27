@@ -3,21 +3,29 @@
 @import url("styles/cards.css");
 @import url("styles/sobreClinica.css");
 @import url("styles/equipe.css");
+@import url("styles/localizaçao.css");
+@import url("styles/footer.css");
 
 
 :root{
-    --font-principal: "Roboto";
-    --font-secundaria: "Open Sans";
+    --font-principal: "Open Sans";
+    --font-titulos: "Roboto";
     --cor-de-fundo: hsl(220, 8%, 93%);
     --branco: #FFFFFF;
     --cor-font: black;
     --azul: #468AC9;
-    --cinza-paragrafo: #b9c1cc;
+    --cinza-paragrafo: #797d81;
 }
 
 body {
     font-family: var(--font-principal);
     font-size: 16px;
     font-weight: 400;
-   
+    
 }
+
+header  {
+    position: fixed;
+    width: 100%;
+
+ }

@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: relative; */
     padding: 0.5em;
 
 }
@@ -21,6 +20,5 @@
 
 .container a:hover {
     font-size: 17px;
-    color: var(--azul)
-    
+    color: var(--azul);
 }

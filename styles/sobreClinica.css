@@ -1,14 +1,19 @@
 .sobre_clinica{
     display: flex;
-    justify-content:space-between;
-    padding: 1em 0 1em 0;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 1em;
+    line-height:1.4em
+    
+    
 }
 
 .card_clinica{
-    padding: 10em 5em 0 5em;
+    padding: 0em 10em 0 6em;
 }
 
 .sobre_titulo{
+    font-family: var(--font-titulos);
     text-transform: uppercase;
     color: var(--cor-font);
     font-weight: 700;
@@ -24,5 +29,5 @@
 .imagem_clinica img{
     border-radius: 0 50em 50em 0;
     height: 32em;
-    /* width: 50em; */
+    
 }

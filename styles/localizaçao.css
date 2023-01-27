@@ -1,0 +1,28 @@
+.localizaçao_clinica{
+    margin-bottom: 1em;
+}
+
+.localizaçao_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.logo_clinica{
+    height: 8em;
+}
+
+.localizaçao_clinica h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-left: 0.4em;
+    font-weight: 700;
+}
+
+.localizaçao_clinica p{
+    padding: 1em;
+    font-size: 18px;
+}
+
+
