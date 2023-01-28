@@ -14,25 +14,24 @@
     text-transform: uppercase;
     font-family: var(--font-titulos);
     font-weight: 700;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .text_equipe{
-    font-size: 18px;
     padding-top: 1em;
 }
 
 .equipe_medica{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 14em 0 14em;
+    padding: 0 10em 0 10em;
     
 }
 
 .card_medico{
     margin: 0.9em;
     background-color: var(--branco);
-    padding: 1.5em 0 4em 0;
+    padding: 1.5em 0 3em 0;
     border-radius: 0px 12px 12px 0px;
     
 }
@@ -45,13 +44,14 @@
 .especialidade{
     color: var(--cinza-paragrafo);
     text-transform: uppercase;
-    font-weight: 800;
-    /* font-family: var(--font-secundaria); */
-    padding: 0.8em 0 0.9em 0;
+    font-weight: 700;
+    font-family: var(--font-titulos);
+    padding: 0.8em 5em 0.9em 5em;
 }
 
 .nome_medico{
-    font-size: 22px;
-    padding: 0 1em 0 1em;
+    font-size: 19px;
+    padding: 0 2em 0 2em;
+    font-weight: 700;
 
 }

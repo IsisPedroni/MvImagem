@@ -3,17 +3,17 @@
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    padding-top: 5em;
+    padding-top: 4em;
     
 }
 
 .banner_conteudo{
-    padding-right: 9em;
+    padding-right: 8em;
 }
 
 .imagem_banner img{
     border-radius: 14em 0px 0px 14em;
-    height: 30em;
+    height: 26em;
 }
 
 .banner_bemVindo{
@@ -25,7 +25,7 @@
 .banner_titulo{
     font-family: var(--font-titulos);
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     padding: 0.2em 0 0.2em 0;
 
@@ -45,7 +45,7 @@ border: 2.2px solid var(--azul);
 letter-spacing: 4px;
 font-family: var(--font-titulos);
 font-weight: 700;
-font-size: 12.5px;
+font-size: 10px;
 border-radius: 5px;
 margin-top: 2.5em;
 padding: 2em 4em;
