@@ -1,14 +1,14 @@
 .card{
     display: grid;
     text-align: center;
-    margin: 1.5em;
-    line-height:1.4em
+    margin: 2em 3em 1em 3em;
+    line-height:1.2em
 }
 
 .titulo{
     font-family: var(--font-titulos);
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
     padding: 1em;
     color: var(--cor-font);
@@ -18,16 +18,15 @@
 .card_geral{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 4em 0 4em;
-    
+            
 }
 
 .card_serviços{
     color: var(--branco);
-    background-color: var(--azul);
+    background: var(--azul);
     border-radius: 10px;
     margin: 0.5em;
-    padding: 2em 4em 2em 4em;
+    padding: 2em;
   
 }
 

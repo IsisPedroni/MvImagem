@@ -3,22 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em;
+    padding-top: 0.5em;
 
 }
 
 .container_imagem{
    width: 20%;
-   padding-left: 3em;
+   padding-left: 2em;
 }
 
 .container a{
-    padding-right: 3em;
+    padding-right: 2em;
     text-decoration: none;
     color: var(---cor-font);
 }
 
 .container a:hover {
-    font-size: 17px;
     color: var(--azul);
 }
