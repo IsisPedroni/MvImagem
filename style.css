@@ -5,7 +5,7 @@
 @import url("styles/equipe.css");
 @import url("styles/localizaçao.css");
 @import url("styles/footer.css");
-
+@import url("styles/convenio.css");
 
 :root{
     --font-principal: "Open Sans";
@@ -27,5 +27,4 @@ body {
 header  {
     position: fixed;
     width: 100%;
-
  }
