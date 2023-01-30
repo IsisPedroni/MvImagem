@@ -12,6 +12,7 @@
     --font-titulos: "Roboto";
     --cor-de-fundo: hsl(220, 8%, 93%);
     --branco: #FFFFFF;
+    --azul-degrade: linear-gradient(97.54deg, #468AC9 35.49%, #326589 165.37%);
     --cor-font: black;
     --azul: #468AC9;
     --cinza-paragrafo: #959a9e;
@@ -27,4 +28,5 @@ body {
 header  {
     position: fixed;
     width: 100%;
+  
  }
