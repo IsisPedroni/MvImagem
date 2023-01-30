@@ -7,9 +7,10 @@
 
 
 .titulo_convenio{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     padding-bottom: 0.8em;
+    text-transform: uppercase;
 }
 
 
@@ -33,8 +34,6 @@
         color:var(--azul);
     }
     
-
-
 .lista_convenio{
     margin: 4em 0 0 10em;
     /* text-align: center; */
@@ -60,11 +59,20 @@
     font-family: var(--font-principal);
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
+    padding-left: 2em;
+    /* text-align: center; */
     color:var( --cor-font);
     background:url("/img/lupaPreta.svg") no-repeat;
 }
 
 li{
     padding-top: 1em;
+}
+
+ol {
+    padding-bottom: 2em;
+}
+
+ol :hover{
+    color:var(--azul);
 }
