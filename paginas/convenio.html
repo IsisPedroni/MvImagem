@@ -39,32 +39,45 @@
     <section class="lista_convenio">
         <p class="texto_convenio">Pesquise abaixo o seu convênio navegando pelo menu ou digite na barra de pesquisa.</p>
         <p>Consulte a disponibilidade conforme seu plano.</p>
-        <input type="search" class="banner_pesquisa" placeholder="Pesquise seu convênio.">
-        <ol>
-            <li>ACI</li>
-            <li>AFISVEC - ASSOCIAÇÃO DOS FISCAIS DE TRIBUTOS ESTADUAIS RG</li>
-            <li>AFPERGS - ASSOCIAÇÃO DOS FUNCIONÁRIOS PÚBLICOS DO RS -SOMENTE EXAMES DE RAIO X</li>
-            <li>AGF SAÚDE ALLIANZ</li>
-            <li>ALIANÇA GOLDEN CARD</li>
-            <li>MBEP - ASSOCIAÇÃO DE MANTENEDORES DA PETROS</li>
-            <li>AMIL</li>
-            <li>ASSEFAZ</li>
-            <li>ASSOCIAÇÃO DOS FUNC. APOSENTADOS DO BANCO DO BRASIL</li>
-            <li>BRADESCO OPERADORA DE PLANOS</li>
-            <li>CABERGS</li>
-            <li>CAIXA ECONÔMICA FEDERAL</li>
-            <li>CARE PLUS MEDICINA ASSISTENCIAL S/C LTDA</li>
-            <li>CASSI</li>
-            <li>CENTRO CLINICO GAUCHO</li>
-            <li>CENTRO CLÍNICO NOVO HAMBURGO LTDA</li>
-            <li>CENTRO MÉDICO ESTÂNCIA VELHA LTDA</li>
-            <li>COOPERSINOS</li>
-            <li>DOCTOR CLIN SAUDE</li>
-            <li>EMERCOR</li>
-
-        </ol>
+        <input type="text" id="myInput" onkeyup="myFunction()"  placeholder="Procure seu convenio" title="Type in a name">
         
-
+        <ul id="myUL">
+            <li><a href="#">ACI</a></li>
+            <li><a href="#">AFISVEC - ASSOCIAÇÃO DOS FISCAIS DE TRIBUTOS ESTADUAIS RG</a></li>
+          
+            <li><a href="#">AFPERGS - ASSOCIAÇÃO DOS FUNCIONÁRIOS PÚBLICOS DO RS -SOMENTE EXAMES DE RAIO X</a></li>
+            <li><a href="#">ALIANÇA GOLDEN CARD</a></li>
+          
+            <li><a href="#">AMIL</a></li>
+            <li><a href="#">ASSEFAZ</a></li>
+            <li><a href="#">CABERGS</a></li>
+            <li><a href="#">CENTRO CLINICO GAUCHO</a></li>
+            <li><a href="#">CENTRO CLÍNICO NOVO HAMBURGO LTDA</a></li>
+            <li><a href="#">CENTRO MÉDICO ESTÂNCIA VELHA LTDA</a></li>
+            <li><a href="#">COOPERSINOS</a></li>
+            <li><a href="#">COOPERSINOS</a></li>
+            <li><a href="#">COOPERSINOS</a></li>
+            <li><a href="#">COOPERSINOS</a></li>
+          </ul>
+        
+          <script>
+            function myFunction() {
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+            </script>
     </section>
 
     <footer class="rodape">
