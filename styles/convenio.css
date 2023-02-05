@@ -82,7 +82,7 @@
     }
 
     #myInput {
-        padding: 20px 80px 12px 40px;
+        padding: 20px 30px 12px 40px;
         
     }
 
@@ -91,3 +91,10 @@
     }
 
   }
+
+  @media screen and (max-width: 890px) {
+  }
+  #myInput {
+    padding: 20px 80px 12px 40px;
+    
+}
