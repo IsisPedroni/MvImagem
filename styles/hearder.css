@@ -4,6 +4,8 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 0.5em;
+    position: fixed;
+    width: 100%;
 
 }
 
@@ -21,3 +23,18 @@
 .container a:hover {
     color: var(--azul);
 }
+
+
+/* @media screen and (
+max-width: 480px) {
+    #main { min-width: 780px; }
+    .cabecalho{
+        position: relative;
+        background-color: aqua;
+    }
+    .container_imagem{
+        background-image: none;
+    }
+
+
+} */

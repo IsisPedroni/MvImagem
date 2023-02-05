@@ -49,12 +49,12 @@
     background:url("/img/lupaPreta.svg") no-repeat;
     background-position: 1em;
     background-repeat: no-repeat;
-    width: 50%;
     font-size: 16px;
-    padding: 20px 10px 12px 40px;
+    padding: 20px 500px 12px 40px;
     border: 1px solid #ddd;
-    margin: 10px 0 12px 0;
+    margin: 0.5em 0 1.5em;
     color:var( --cor-font);
+    border-radius: 0.5em;
   }
   
   #myUL li a {
@@ -68,4 +68,26 @@
   
   #myUL li a:hover {
     color:var(--azul);
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+    .banner_convenio {
+        padding: 6em 0 4em 0;
+    }
+    .titulo_convenio{
+        font-size: 28px;
+        padding-bottom: 1.5em;
+    }
+
+    #myInput {
+        padding: 20px 80px 12px 40px;
+        
+    }
+
+    .lista_convenio{
+        margin: 1.5em 3em;
+    }
+
   }
