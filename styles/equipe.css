@@ -60,6 +60,7 @@
 @media screen and (max-width: 890px) {
     .equipe {
         padding: 1em 0 1.5em 0;
+        background: #002F52;
     }
 
     .equipe_medica {

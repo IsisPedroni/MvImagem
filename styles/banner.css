@@ -3,8 +3,10 @@
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    /* padding-top: 4em; */
-    
+    /* padding: 8em;
+    background-image: url(/img/banner6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .banner_conteudo{
@@ -74,11 +76,18 @@ width: 8em;
         display: flex;
         text-align: center;
         justify-content: center;
-      
+        background-image: url(/img/aparelho4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background: var(--azul-degrade); */
+        padding: 2em;
+        color: var(--branco);
+     
     }
 
     .banner_titulo{
         font-size: 40px;
+        
     }
     .banner_telefone {
         padding-top: 0.5em;
@@ -86,6 +95,12 @@ width: 8em;
 
     #contatos_telefone{
         margin-top: 1.5em;
+        color: var(--branco);
+        border: 2.2px solid #ffffff;
+    }
+    #contatos_telefone:hover {
+        background-color: #ffffff;
+        color: #2c4052;
     }
 
     .botao_whatsapp {

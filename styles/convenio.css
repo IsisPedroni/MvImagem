@@ -31,7 +31,7 @@
     
     #contatos_whatsapp:hover  {
         background-color: var(--branco);
-        color:var(--azul);
+        color:var(--azul-degrade);
     }
     
 .lista_convenio{
@@ -95,7 +95,7 @@
   @media screen and (max-width: 890px) {
   
   #myInput {
-    padding: 20px 80px 12px 40px;
+    padding: 20px 40px 12px 40px;
   }
     
   .card_geral {
