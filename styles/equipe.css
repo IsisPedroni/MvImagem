@@ -58,9 +58,9 @@
 
 
 @media screen and (max-width: 890px) {
-.equipe{
-    padding: 0;
-}
+    .equipe {
+        padding: 1em 0 1.5em 0;
+    }
 
     .equipe_medica {
         display: grid;
@@ -69,14 +69,14 @@
     }
 
     .card_medico {
-        margin: 0.9em 5em;
+        margin: 0.9em 4em;
         background-color: var(--branco);
         padding: 1.5em 0 3em 0;
         border-radius: 0px 12px 12px 0px;
     }
 
     .foto_medico img {
-        height: 10em;
+        height: 14em;
     }
 
     .especialidade{
