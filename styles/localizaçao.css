@@ -25,3 +25,19 @@
 }
 
 
+@media screen and (max-width: 890px) {
+    .logo_clinica {
+       display: none;
+    }
+
+    .localizaçao_clinica h3{
+        text-align: center;
+        padding-left: 0;
+        font-size: 24px;
+    }
+
+    .localizaçao_clinica p {
+        text-align: center;
+    }
+
+}
