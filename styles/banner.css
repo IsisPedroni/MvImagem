@@ -68,6 +68,10 @@ width: 8em;
         display: none;
     }
 
+    .conteudo_banner{
+        display: none;
+    }
+
     .banner_conteudo {
          padding-right: 0em; 
     }
@@ -80,15 +84,16 @@ width: 8em;
         background-repeat: no-repeat;
         background-size: cover;
         /* background: var(--azul-degrade); */
-        padding: 2em;
+        padding: 4em;
         color: var(--branco);
      
     }
 
     .banner_titulo{
-        font-size: 40px;
-        
+        font-size: 45px;
+        padding: 0.2em 0 0 0;
     }
+
     .banner_telefone {
         padding-top: 0.5em;
     }
@@ -97,6 +102,7 @@ width: 8em;
         margin-top: 1.5em;
         color: var(--branco);
         border: 2.2px solid #ffffff;
+        padding: 1.5em 4em;
     }
     #contatos_telefone:hover {
         background-color: #ffffff;
@@ -106,7 +112,7 @@ width: 8em;
     .botao_whatsapp {
         display: flex;
         justify-content: center;
-       margin-top: 0.2em;
+        margin-top: 0.2em;
     }
 
    
