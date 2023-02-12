@@ -37,3 +37,16 @@
     font-size: 17px;
    
 }
+
+@media screen and (max-width: 890px) {
+    .card_serviços {
+        color: var(--cor-font);
+        background: var(--branco);
+        box-shadow:0px 4px 4px rgb(0 0 0 / 25%);
+        /* background-color: #002F52; */
+       
+      
+    }
+
+}
+
