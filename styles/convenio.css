@@ -93,8 +93,20 @@
   }
 
   @media screen and (max-width: 890px) {
-  }
+  
   #myInput {
-    padding: 20px 20px 12px 40px;
+    padding: 20px 80px 12px 40px;
+  }
     
+  .card_geral {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.titulo{
+    padding: 0;
+    margin-bottom: 0.5em;
+    font-size: 24px;
+}
+
 }
