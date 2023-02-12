@@ -62,8 +62,40 @@ width: 8em;
 
 
 @media screen and (max-width: 890px) { 
-
-    .banner{
+    .imagem_banner img{
         display: none;
     }
+
+    .banner_conteudo {
+         padding-right: 0em; 
+    }
+
+    .banner {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      
+    }
+
+    .banner_titulo{
+        font-size: 40px;
+    }
+    .banner_telefone {
+        padding-top: 0.5em;
+    }
+
+    #contatos_telefone{
+        margin-top: 1.5em;
+    }
+
+    .botao_whatsapp {
+        display: flex;
+        justify-content: center;
+       margin-top: 0.2em;
+    }
+
+   
+  
+
+
 }
