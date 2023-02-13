@@ -1,4 +1,70 @@
 .rodape{
-    background:var(--cinza-paragrafo);
-    padding: 1em;
+    background:var(--azul);
+    padding: 3.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--branco);
+    line-height:2em
+}
+
+.logo img{
+    height: 8em;
+}
+
+.redes_sociais img {
+    height: 2em;
+    padding: 0.3em;
+}
+
+
+.telefone_infomacoes .localizaçao_informacoes .whats_informacoes, img{
+    height: 1.5em;
+}
+
+.telefone_infomacoes, .whats_informacoes{
+    display: flex;
+    align-items: center;
+}
+
+.localizaçao_informacoes{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.horario_img{
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+@media screen and (max-width: 890px) { 
+
+    .rodape{
+        background:#002F52;
+        display: block;
+        text-align: center;
+    
+    }
+
+    .logo img {
+        height: 7em;
+    }
+
+    .horario_img{
+        justify-content: center;
+    }
+    
+    .telefone_infomacoes, .whats_informacoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .localizaçao_informacoes {
+        display: none;
+    }
+
 }
