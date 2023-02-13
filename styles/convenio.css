@@ -1,6 +1,6 @@
 .banner_convenio{
  text-align: center;
-    background: var(--azul-degrade);
+    background: var(--azul);
     color: var(--branco);
     padding: 10em 0 8em 0;
 }
@@ -31,7 +31,7 @@
     
     #contatos_whatsapp:hover  {
         background-color: var(--branco);
-        color:var(--azul-degrade);
+        color:var(--azul);
     }
     
 .lista_convenio{
@@ -75,6 +75,7 @@
   @media screen and (min-width: 320px) and (max-width:480px) {
     .banner_convenio {
         padding: 6em 0 4em 0;
+        background: var(  --azul-degrade);
     }
     .titulo_convenio{
         font-size: 28px;
