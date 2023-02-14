@@ -13,9 +13,9 @@
     padding-right: 8em;
 }
 
-.imagem_banner img{
+.imagem_banner {
     border-radius: 14em 0px 0px 14em;
-    height: 26em;
+    height: 25em;
 }
 
 .banner_bemVindo{
