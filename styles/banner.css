@@ -15,7 +15,7 @@
 
 .imagem_banner {
     border-radius: 14em 0px 0px 14em;
-    height: 25em;
+    height: 27em;
 }
 
 .banner_bemVindo{
@@ -64,7 +64,7 @@ width: 8em;
 
 
 @media screen and (max-width: 890px) { 
-    .imagem_banner img{
+    .imagem_banner{
         display: none;
     }
 
